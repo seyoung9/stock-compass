@@ -1,0 +1,6 @@
+[
+  { "symbol": "SPY",  "name": "S&P 500 ETF" },
+  { "symbol": "QQQ",  "name": "나스닥100 ETF" },
+  { "symbol": "AAPL", "name": "애플" },
+  { "symbol": "MSFT", "name": "마이크로소프트" }
+]
