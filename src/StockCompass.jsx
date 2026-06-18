@@ -110,7 +110,7 @@ const DATA_URL = "data.json";
 /* ★ 소유자가 1회만 설정: 배포한 Cloudflare Worker 주소를 여기 붙여넣고 push.
    비워두면 AI 코칭 대신 규칙 기반으로 동작(가족도 그대로 사용 가능).
    이 주소 하나면 너도 가족도 추가 설정 없이 각자 종목으로 코칭을 받는다. */
-const WORKER_URL = "";
+const WORKER_URL = "https://stock-compass-ai.shanon1000.workers.dev";
 async function loadData() {
   try {
     const r = await fetch(DATA_URL, { cache: "no-store" });
